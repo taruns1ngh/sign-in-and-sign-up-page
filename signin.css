@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+
+} */
+.main img{
+   width: 18rem;
+   margin: auto;
+   margin-bottom: -10px;
+   align-items: center;
+   justify-content: center;
+   
+}
+body{
+    overflow: hidden;
+    color:black;
+    display:grid;
+    max-width: 410px;
+    height: 550px; 
+    position:relative;
+    margin: auto;
+    background-color: white;
+    transform:translateX(-50%, -50%);
+    text-align: center;
+    background: white;
+    margin-top: -100px;
+}
+.container{
+    padding: 0 20px;
+    max-width: 440px;
+    margin: auto;
+    height: 300px;
+    
+}
+.container form .middle{
+  margin: auto;
+}
+.form {
+    width: 100%;
+    height: 550px;
+
+  } 
+  .container .form .main{
+    line-height: 50px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+  }
+  .container .form .main h1{
+    margin: -10px 0 10px 0;
+    text-align: center;
+
+  }
+  .container .form .middle {
+    font-size: 20px;
+    font-family:  'Lato', sans-serif;
+    text-align: left;
+  
+    
+  }
+.middle input{
+    padding:12px;
+    width: 240px;
+    align-items: center;
+    margin: 5px 50px 10px 50px;
+    background: #fff;
+    box-shadow: none;
+    outline: none;
+    border-color: black ;
+    border-radius: 5px;
+    font-family: "Lato", "sans";
+    font-weight: 400;
+    font-size: 15px;
+
+  }
+  .middle label{
+    margin: 50px;
+    margin-top: -10px;
+  }
+
+
+  
+  .lower{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: "lato","sans";
+    margin-left: -10px;
+
+  }
+  .lower .login{
+    padding: 7px 70px 7px 70px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color:rgb(96, 7, 239);
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    border-color:rgb(96, 7, 239);
+    text-align: center;
+    font-family: "Lato", "sans";
+  }
+  .login:hover{
+    background-color:#fff;
+    color:rgb(96, 7, 239) ;
+    transition:0.5s;
+  }
+  .lower a{
+    color: rgb(96, 7, 239);
+    outline: none;
+    text-decoration: none;
+  }
+  .lower p{
+    margin-top: 5px;
+  }
+  .middle .second{
+    margin-top: -5px;
+  }
+  .middle .third{
+    margin-top: -5px;
+  }
+  .middle .fourth{
+    margin-top: -5px;
+  }
+
+
+@media(width<=420px){
+  .main img{
+    width: 22rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}

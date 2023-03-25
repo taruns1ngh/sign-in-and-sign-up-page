@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.body {
+    display:grid;
+    max-width: 410px;
+    height: 550px; 
+    position:relative;
+    margin: auto;
+    background-color: white;
+    transform:translateX(-50%, -50%);
+    text-align: center;
+    background: white;
+     /* top: 55%;
+    bottom: 50%;     */ 
+}
+
+.box img{
+    width: 18rem;   
+    margin: 10px 0 -20px 0 ;
+}
+.text p{
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight:500;
+    opacity: 0.7;
+}
+
+.text h1{
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight:400;
+    margin-bottom: -15px;
+}
+
+.signin{
+     padding: 7px 75px 7px 75px;
+     font-size: 1.1rem;
+     color: #fff ;
+     background-color: rgb(96, 7, 239);
+     cursor: pointer;
+     border-radius: 20px;
+     text-decoration: none;
+     text-align: center;
+     font-family: "Lato", "sans";
+     border-color:rgb(96, 7, 239);
+    }
+.signup{
+     padding: 7px 70px 7px 70px;
+     font-size: 1.1rem;
+     color:  rgb(96, 7, 239);
+     background-color:#fff;
+     cursor: pointer;
+     border-radius: 20px;
+     text-decoration: none;
+     border-color:rgb(96, 7, 239);
+     text-align: center;
+     font-family: "Lato", "sans";
+     margin-top: 10px ;
+}
+.signup:hover{
+    background-color:rgb(96, 7, 239);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.signin:hover{
+    /* background-color:;
+    color: rgb(96, 7, 239); */
+    transition: 0.3s;
+}
+.email a i{
+    letter-spacing: 3px;
+}
+.signin a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+.signup i{
+    letter-spacing: 3px;
+}
+
+.para{
+    margin-top: -10px;
+    font-family: "Lato", "sans";
+}
+
+.para a{
+    text-decoration:underline;
+    color: rgb(96, 7, 239); 
+    
+}
+
+@media(width<=420px){
+    .box img{
+        width: 22rem;
+        margin-top: 100px;
+    }
+    .email{
+        margin-top: 50px;
+    }
+    .text h1{
+        font-size: 1.8rem;
+        margin-top: 40px;
+    }
+}
+
+
